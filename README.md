@@ -1,6 +1,6 @@
-# kube-scripts
+# Kube-scripts for setting up Roles and RolesBinding 
 
-# TO Modify Config file
+# To Modify Kube Config file
 
 kubectl config set-cluster "${CLUSTER_NAME}" --kubeconfig=kubenew/config-new --server="${ENDPOINT}" --certificate-authority=kubenew/ca.crt --embed-certs=true
 
@@ -11,5 +11,9 @@ kubectl config set-context tiller-dev-k8s --kubeconfig=kubenew/config-new --clus
 kubectl config use-context tiller-dev-k8s --kubeconfig=kubenew/config-new
 
 # To Check 
+
+KUBECONFIG=kubenew/config-new kubectl get pods
+
+kubectl run nginx --image=nginx:latest --replicas=3 --port=80 -n prod
 
 KUBECONFIG=kubenew/config-new kubectl get pods
