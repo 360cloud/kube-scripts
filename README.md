@@ -1,5 +1,11 @@
 # Kube-scripts for setting up Roles and RolesBinding 
 
+Nice wb refernces :
+
+https://brancz.com/2017/10/16/kubernetes-auth-x509-client-certificates/
+
+
+
 # To Modify Kube Config file
 
 kubectl config set-cluster "${CLUSTER_NAME}" --kubeconfig=kubenew/config-new --server="${ENDPOINT}" --certificate-authority=kubenew/ca.crt --embed-certs=true
