@@ -4,6 +4,9 @@ Nice wb refernces :
 
 https://brancz.com/2017/10/16/kubernetes-auth-x509-client-certificates/
 
+https://jenciso.github.io/personal/manage-tls-certificates-for-kubernetes-users
+
+
 
 
 # To Modify Kube Config file
