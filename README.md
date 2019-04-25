@@ -6,6 +6,8 @@ https://brancz.com/2017/10/16/kubernetes-auth-x509-client-certificates/
 
 https://jenciso.github.io/personal/manage-tls-certificates-for-kubernetes-users
 
+https://medium.com/@amimahloof/how-to-setup-helm-and-tiller-with-rbac-and-namespaces-34bf27f7d3c3
+
 
 
 
